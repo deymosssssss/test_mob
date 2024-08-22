@@ -1,0 +1,83 @@
+.cart {
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #fff;
+  margin-bottom: 10px;
+
+  font-family: "Segoe UI";
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #efefef;
+}
+
+.header_title {
+  font-size: 24px;
+}
+
+.header_icon {
+  width: 56px;
+  height: 56px;
+}
+
+.content {
+  width: 100%;
+}
+
+.score {
+  display: flex;
+  gap: 0 4px;
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: 700;
+  align-items: end;
+}
+
+.points {
+  font-size: 16px;
+  font-weight: 100;
+  color: gray;
+}
+
+.info {
+  gap: 0 40px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.info_caption {
+  margin-bottom: 6px;
+  color: gray;
+  font-size: 14px;
+}
+
+.footer {
+  border-top: 2px solid #efefef;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.button {
+  padding: 6px 50px;
+  border-radius: 5px;
+  border: none;
+  color: #2688eb;
+  cursor: pointer;
+  font-family: "Segoe UI";
+}
