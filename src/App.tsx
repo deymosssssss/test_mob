@@ -1,4 +1,3 @@
-import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { useEffect, useState } from "react";
 import CardList from "./main/CardList/CardList";
 import LoadingPage from "./main/LoadingPage/LoadingPage";
