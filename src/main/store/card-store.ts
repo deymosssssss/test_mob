@@ -8,10 +8,6 @@ class CardsStore {
     makeAutoObservable(this);
   }
 
-  getAllCards() {
-    return this.cards;
-  }
-
   deleteCard(id: number) {
     this.cards = this.cards.filter((card) => card.id !== id);
   }
@@ -34,8 +30,6 @@ class CardsStore {
       runInAction(() => (this.cards = [...this.cards, ...cardsMock.map((el) => ({ ...el, id: Math.floor(Math.random() * 10000000000) }))]));
     });
   }
-
-  setCards() {}
 }
 export default new CardsStore();
 

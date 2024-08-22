@@ -10,12 +10,7 @@ function App() {
     setTimeout(() => setLoading(false), 3000);
   }, []);
 
-  return (
-    <>
-      {loading && <LoadingPage />}
-      {!loading && <CardList />}
-    </>
-  );
+  return <>{loading ? <LoadingPage /> : <CardList />}</>;
 }
 
 export default App;

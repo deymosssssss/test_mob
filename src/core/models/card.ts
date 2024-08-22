@@ -5,12 +5,14 @@ export interface ICard {
   score: number;
   cashback: number;
   level: string;
-  branding?: {
-    cardBackgroundColor: string;
-    highlightTextColor: string;
-    textColor: string;
-    mainColor: string;
-    accentColor: string;
-    backgroundColor: string;
-  };
+  branding?: Branding;
+}
+
+export interface Branding {
+  cardBackgroundColor: string;
+  highlightTextColor: string;
+  textColor: string;
+  mainColor: string;
+  accentColor: string;
+  backgroundColor: string;
 }
